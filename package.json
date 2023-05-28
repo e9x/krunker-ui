@@ -12,54 +12,41 @@
   "license": "LGPL-3.0",
   "files": [
     "LICENSE",
-    "dist",
-    "window.d.ts"
+    "*.d.ts",
+    "*.js",
+    "components"
   ],
   "exports": {
     "./window": {
       "types": "./window.d.ts"
     },
-    "./settings": {
-      "import": "./dist/settings.js"
-    },
-    "./container": {
-      "import": "./dist/container.js"
-    },
-    "./keys": {
-      "import": "./dist/keys.js"
-    },
-    "./components/Bind": {
-      "import": "./dist/components/Bind.js"
-    },
-    "./components/Button": {
-      "import": "./dist/components/Bind.js"
-    },
-    "./components/ColorPicker": {
-      "import": "./dist/components/ColorPicker.js"
-    },
-    "./components/Control": {
-      "import": "./dist/components/Control.js"
-    },
+    "./settings": "./settings.js",
+    "./container": "./container.js",
+    "./keys": "./keys.js",
+    "./components/Bind": "./components/Bind.js",
+    "./components/Button": "./components/Bind.js",
+    "./components/ColorPicker": "./components/ColorPicker.js",
+    "./components/Control": "./components/Control.js",
     "./components/FilePicker": {
-      "import": "./dist/components/FilePicker.js"
+      "import": "./components/FilePicker.js"
     },
     "./components/Link": {
-      "import": "./dist/components/Link.js"
+      "import": "./components/Link.js"
     },
     "./components/Select": {
-      "import": "./dist/components/Select.js"
+      "import": "./components/Select.js"
     },
     "./components/Set": {
-      "import": "./dist/components/Set.js"
+      "import": "./components/Set.js"
     },
     "./components/Slider": {
-      "import": "./dist/components/Slider.js"
+      "import": "./components/Slider.js"
     },
     "./components/Switch": {
-      "import": "./dist/components/Switch.js"
+      "import": "./components/Switch.js"
     },
     "./components/Text": {
-      "import": "./dist/components/Text.js"
+      "import": "./components/Text.js"
     }
   },
   "scripts": {

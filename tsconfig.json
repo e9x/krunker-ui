@@ -1,13 +1,12 @@
 {
   "compilerOptions": {
-    "outDir": "dist",
+    "outDir": "",
     "target": "ESNext",
     "lib": ["ESNext", "DOM", "DOM.Iterable"],
     "baseUrl": "src",
     "strict": true,
-    "sourceMap": true,
     "declaration": true,
-    "module": "ESNext",
+    "module": "CommonJS",
     "moduleResolution": "node16",
     "esModuleInterop": true,
     "jsx": "react"
