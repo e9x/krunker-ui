@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "target": "ESNext",
+    "lib": ["ESNext", "DOM", "DOM.Iterable"],
+    "baseUrl": "src",
+    "strict": true,
+    "sourceMap": true,
+    "declaration": true,
+    "module": "ESNext",
+    "moduleResolution": "node16",
+    "esModuleInterop": true,
+    "jsx": "react"
+  },
+  "include": ["src/**/*", "window.d.ts"]
+}
