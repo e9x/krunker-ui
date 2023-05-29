@@ -53,10 +53,6 @@
     "build": "tsc",
     "watch": "tsc -w"
   },
-  "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
   "devDependencies": {
     "@ianvs/prettier-plugin-sort-imports": "^4.0.0",
     "@types/react": "^18.2.7",
@@ -66,5 +62,9 @@
     "eslint-plugin-react": "^7.32.2",
     "prettier": "^2.8.8",
     "typescript": "^5.0.4"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   }
 }
