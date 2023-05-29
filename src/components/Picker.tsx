@@ -10,6 +10,10 @@ export interface PickerProps extends BaseControlProps {
   onBrowse: MouseEventHandler<HTMLInputElement>;
 }
 
+/**
+ * Generic path picker
+ * Compatible with native clients and browsers
+ */
 export default function Picker({
   title,
   attention,
