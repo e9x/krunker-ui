@@ -25,6 +25,13 @@ const FilePicker = forwardRef<HTMLInputElement, FilePickerProps>(
 
     return (
       <Control title={title} attention={attention} description={description}>
+        <div
+          className="settingsBtn"
+          style={{ width: 100 }}
+          onClick={() => picker.current!.click()}
+        >
+          Browse
+        </div>
         <input
           ref={picker}
           hidden
@@ -34,13 +41,6 @@ const FilePicker = forwardRef<HTMLInputElement, FilePickerProps>(
           onChange={onChange}
           multiple={multiple}
         />
-        <div
-          className="settingsBtn"
-          style={{ width: 100 }}
-          onClick={() => picker.current!.click()}
-        >
-          Browse
-        </div>
       </Control>
     );
   }

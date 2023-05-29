@@ -25,6 +25,9 @@ export default function Picker({
 
   return (
     <Control title={title} attention={attention} description={description}>
+      <div className="settingsBtn" style={{ width: 100 }} onClick={onBrowse}>
+        Browse
+      </div>
       <input
         ref={inputRef}
         type="text"
@@ -34,9 +37,6 @@ export default function Picker({
         spellCheck={false}
         readOnly
       />
-      <div className="settingsBtn" style={{ width: 100 }} onClick={onBrowse}>
-        Browse
-      </div>
     </Control>
   );
 }
