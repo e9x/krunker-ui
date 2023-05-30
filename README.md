@@ -2,6 +2,12 @@
 
 React Components for Krunker
 
+## Features
+
+- Developed for and supports NodeJS v12 (CommonJS)
+- Easy API
+- Highly Tested
+
 ## Usage
 
 1. Add the global types for Krunker. This makes your code aware of `window.windows`, `playSound()`, and other features.
