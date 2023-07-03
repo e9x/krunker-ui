@@ -35,6 +35,7 @@ declare interface Settings extends GameWindow {
   tabs: Record<string, SettingsTab[]>;
   settingType: string;
   tabIndex: number;
+  settingSearch: string | null;
 }
 
 // eslint-disable-next-line no-var
