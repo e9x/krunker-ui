@@ -1,6 +1,6 @@
 import type { ChangeEventHandler } from "react";
 import React, { forwardRef, useImperativeHandle, useRef } from "react";
-import Control from "./Control.js";
+import { Control } from "./Control.js";
 import type { BaseControlProps } from "./Control.js";
 
 export interface FilePickerProps extends BaseControlProps {
@@ -14,7 +14,7 @@ export interface FilePickerProps extends BaseControlProps {
 /**
  * Control to get the handle of a file.
  */
-const FilePicker = forwardRef<HTMLInputElement, FilePickerProps>(
+export const FilePicker = forwardRef<HTMLInputElement, FilePickerProps>(
   function FilePicker(
     { title, attention, description, value, defaultValue, multiple, onChange },
     ref
@@ -45,5 +45,3 @@ const FilePicker = forwardRef<HTMLInputElement, FilePickerProps>(
     );
   }
 );
-
-export default FilePicker;

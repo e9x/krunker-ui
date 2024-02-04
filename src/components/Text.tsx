@@ -1,6 +1,6 @@
 import type { ChangeEventHandler } from "react";
 import React from "react";
-import Control from "./Control.js";
+import { Control } from "./Control.js";
 import type { BaseControlProps } from "./Control.js";
 
 export interface TextProps extends BaseControlProps {
@@ -14,7 +14,7 @@ export interface TextProps extends BaseControlProps {
   onChange?: ChangeEventHandler<HTMLInputElement>;
 }
 
-export default function Text({
+export function Text({
   title,
   attention,
   description,

@@ -1,6 +1,6 @@
 import type { ChangeEventHandler } from "react";
 import React, { useRef } from "react";
-import Control from "./Control.js";
+import { Control } from "./Control.js";
 import type { BaseControlProps } from "./Control.js";
 
 export interface SliderProps extends BaseControlProps {
@@ -11,7 +11,7 @@ export interface SliderProps extends BaseControlProps {
   onChange?: ChangeEventHandler<HTMLInputElement>;
 }
 
-export default function Slider({
+export function Slider({
   title,
   attention,
   description,

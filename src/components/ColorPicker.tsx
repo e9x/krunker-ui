@@ -1,7 +1,7 @@
 import type { ChangeEventHandler } from "react";
 import React from "react";
 import type { BaseControlProps } from "./Control.js";
-import Control from "./Control.js";
+import { Control } from "./Control.js";
 
 export interface ColorPickerProps extends BaseControlProps {
   value?: string;
@@ -9,7 +9,7 @@ export interface ColorPickerProps extends BaseControlProps {
   onChange?: ChangeEventHandler<HTMLInputElement>;
 }
 
-export default function ColorPicker({
+export function ColorPicker({
   title,
   attention,
   description,

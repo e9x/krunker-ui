@@ -6,7 +6,7 @@ export interface Tab {
   body: ComponentType;
 }
 
-export default function Settings({
+export function Settings({
   header,
   tabs,
   defaultTabID = 0,

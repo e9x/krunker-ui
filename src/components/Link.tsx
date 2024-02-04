@@ -8,7 +8,7 @@ export interface LinkProps extends BaseControlProps {
   onClick?: MouseEventHandler<HTMLAnchorElement>;
 }
 
-export default function Link({
+export function Link({
   title,
   attention,
   description,

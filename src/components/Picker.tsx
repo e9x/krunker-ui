@@ -1,6 +1,6 @@
 import type { ChangeEventHandler, MouseEventHandler } from "react";
-import React, { forwardRef, useRef } from "react";
-import Control from "./Control.js";
+import React, { forwardRef } from "react";
+import { Control } from "./Control.js";
 import type { BaseControlProps } from "./Control.js";
 
 export interface PickerProps extends BaseControlProps {
@@ -30,7 +30,7 @@ export interface PickerProps extends BaseControlProps {
  * Generic path picker
  * Compatible with native clients and browsers
  */
-const Picker = forwardRef<HTMLInputElement, PickerProps>(function Picker(
+export const Picker = forwardRef<HTMLInputElement, PickerProps>(function Picker(
   {
     title,
     attention,
@@ -62,5 +62,3 @@ const Picker = forwardRef<HTMLInputElement, PickerProps>(function Picker(
     </Control>
   );
 });
-
-export default Picker;

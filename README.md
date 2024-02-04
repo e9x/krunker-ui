@@ -21,7 +21,7 @@ React Components for Krunker
 2. Import the components
 
    ```tsx
-   import Switch from "krunker-ui/components/Switch";
+   import { Switch } from "krunker-ui/components/Switch";
 
    function MyInterface() {
      const [unlimitedFPS, setUnlimitedFPS] = useConfig("unlimitedFPS");

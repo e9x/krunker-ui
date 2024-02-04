@@ -1,7 +1,7 @@
 import type { ChangeEventHandler, ReactNode } from "react";
 import React, { Fragment, useEffect, useState } from "react";
 import { getKeyCode, getKeyName } from "../keys.js";
-import Control from "./Control.js";
+import { Control } from "./Control.js";
 import type { BaseControlProps } from "./Control.js";
 
 export interface BindProps {
@@ -97,7 +97,7 @@ export interface BindHolderProps extends BaseControlProps {
   modePicker?: ReactNode;
 }
 
-export default function BindHolder({
+export function BindHolder({
   title,
   attention,
   description,

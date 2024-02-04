@@ -55,7 +55,7 @@ export function ControlContainer({
 /**
  * A control.
  */
-export default function Control({
+export function Control({
   title,
   description,
   attention,

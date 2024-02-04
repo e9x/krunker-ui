@@ -1,6 +1,6 @@
 import type { ChangeEventHandler } from "react";
 import React from "react";
-import Control from "./Control.js";
+import { Control } from "./Control.js";
 import type { BaseControlProps } from "./Control.js";
 
 export interface SwitchProps extends BaseControlProps {
@@ -9,7 +9,7 @@ export interface SwitchProps extends BaseControlProps {
   onChange?: ChangeEventHandler<HTMLInputElement>;
 }
 
-export default function Switch({
+export function Switch({
   title,
   attention,
   description,

@@ -1,6 +1,6 @@
 import type { MouseEventHandler } from "react";
 import React from "react";
-import Control from "./Control.js";
+import { Control } from "./Control.js";
 import type { BaseControlProps } from "./Control.js";
 
 export interface ButtonProps extends BaseControlProps {
@@ -8,7 +8,7 @@ export interface ButtonProps extends BaseControlProps {
   onClick?: MouseEventHandler<HTMLDivElement>;
 }
 
-export default function Button({
+export function Button({
   title,
   attention,
   description,
