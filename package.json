@@ -23,7 +23,7 @@
     "./container": "./container.js",
     "./keys": "./keys.js",
     "./components/Bind": "./components/Bind.js",
-    "./components/Button": "./components/Bind.js",
+    "./components/Button": "./components/Button.js",
     "./components/ColorPicker": "./components/ColorPicker.js",
     "./components/Control": "./components/Control.js",
     "./components/FilePicker": {
