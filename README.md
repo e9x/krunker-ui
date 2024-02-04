@@ -46,6 +46,8 @@ React Components for Krunker
    (This is subject to change)
 
    ```ts
+   import { createRenderContainer } from "krunker-ui/container";
+
    const html = createRenderContainer(() => <MyInterface />);
 
    const window: GameWindowRender = {

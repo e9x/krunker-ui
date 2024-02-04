@@ -26,27 +26,13 @@
     "./components/Button": "./components/Button.js",
     "./components/ColorPicker": "./components/ColorPicker.js",
     "./components/Control": "./components/Control.js",
-    "./components/FilePicker": {
-      "import": "./components/FilePicker.js"
-    },
-    "./components/Link": {
-      "import": "./components/Link.js"
-    },
-    "./components/Select": {
-      "import": "./components/Select.js"
-    },
-    "./components/Set": {
-      "import": "./components/Set.js"
-    },
-    "./components/Slider": {
-      "import": "./components/Slider.js"
-    },
-    "./components/Switch": {
-      "import": "./components/Switch.js"
-    },
-    "./components/Text": {
-      "import": "./components/Text.js"
-    }
+    "./components/FilePicker": "./components/FilePicker.js",
+    "./components/Link": "./components/Link.js",
+    "./components/Select": "./components/Select.js",
+    "./components/Set": "./components/Set.js",
+    "./components/Slider": "./components/Slider.js",
+    "./components/Switch": "./components/Switch.js",
+    "./components/Text": "./components/Text.js"
   },
   "scripts": {
     "build": "tsc",
