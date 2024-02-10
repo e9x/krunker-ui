@@ -6,8 +6,8 @@
     "baseUrl": "src",
     "strict": true,
     "declaration": true,
-    "module": "CommonJS",
-    "moduleResolution": "node16",
+    "module": "Node16",
+    "moduleResolution": "Node16",
     "esModuleInterop": true,
     "jsx": "react"
   },
